@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Araba Fotoğrafçılığı Portföyü</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Mimoza Photography</h1>
+    <nav>
+        <ul>
+            <li><a href="#" data-category="retro">Retro Cars</a></li>
+            <li><a href="#" data-category="sedan">Sedan Sport Cars</a></li>
+            <li><a href="#" data-category="jdm">JDM Cars</a></li>
+            <li><a href="#" data-category="rally">Rally Cars</a></li>
+            <li><a href="#" data-category="suv">SUV Cars</a></li>
+            <li><a href="#" data-category="super-sport">Super Sport Cars</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="home">
+    <h2>About Us</h2>
+    <p>Mimoza Photography is a photography company specializing in capturing cars from the most stunning angles. Our expert team excels in photographing all kinds of car models and providing our clients with high-quality images.</p>
+    
+    <p>We offer custom photo shoots for car owners, sellers, and collectors. We help you reach potential customers and enthusiasts with images that represent your cars in the best possible light.</p>
+
+    <h2>Contact</h2>
+    <p>For inquiries or bookings, feel free to contact us via email at <a href="mailto:ahilmiyilmaz@gmail.com">ahilmiyilmaz@gmail.com</a> or phone at +1234567890.</p>
+</section>
+
+
+    <section id="portfolio" style="display: none;">
+        <h2 id="category-title">Portföy</h2>
+        <div class="gallery">
+            <!-- Kategoriye göre fotoğraflar burada dinamik olarak oluşturulacak -->
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>Tüm hakları saklıdır. &copy; 2024</p>
+</footer>
+
+<script src="script.js"></script>
+<script>
+    // JavaScript ile home ve portfolio bölümlerini kontrol etmek için
+    const homeSection = document.getElementById("home");
+    const portfolioSection = document.getElementById("portfolio");
+
+    // İlk açıldığında home bölümünü göster, portfolio bölümünü gizle
+    homeSection.style.display = "block";
+    portfolioSection.style.display = "none";
+
+    // Herhangi bir kategoriye tıklandığında home bölümünü gizle, portfolio bölümünü göster
+    const navLinks = document.querySelectorAll("nav a");
+    navLinks.forEach(link => {
+        link.addEventListener("click", () => {
+            homeSection.style.display = "none";
+            portfolioSection.style.display = "block";
+        });
+    });
+</script>
+</body>
+</html>

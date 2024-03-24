@@ -1,0 +1,41 @@
+Prompts for creating website with Chatgpt:
+
+1-bir portfolio/ galeri web sitesi tasarlamanı bekliyorum.
+2-harika, kodunu yaz şimdi
+3-şimdi bana tüm kodları tek tek yaz ve hangi isimle kaydedeceğimi söyle. sonra da siteyi nasıl çalıştıracağımı anlat
+ben araba fotoğrafçısı olayım, web sitesi de bunla ilgili düzenle hakkında kısmını kafana göre uydurabilirsin, tasarımı daha da güzelleştir
+4-Semantik Etiketlerin Kullanılması: Web sitesinin HTML yapısında, semantik 
+etiketlerin(header, main, nav, section, article, aside, footer) kullanılması beklenmektedir
+5-şimdi tasarladığımız websitenin arka planına background.jpg isminde bir fotoğraf ekleyeceğiz
+6-eklediğimiz car1.jpg gibi fotoğraflar mouse üstüne gelince büyüsün, mouse üstüne tıklayınca orijinal boyutunda açılsın
+
+7-portfolioda bazı kategoriler olacak. kullanıcı bu kategoriyi seçecek o kategorideki fotoğraflar karşısına çıkacak.
+kategoriler:
+1-retro cars
+2-sedan sport cars
+3-jdm cars
+4-rally cars
+5-suv cars
+6-super sport cars
+
+8-küçük fotoğrafların üstüne basınca büyümesini istiyorum
+9-hayır, eski haline getir ana ekranda küçük halleri gözüksün. kullanıcı üstüne bastığında orijinal boyutunda açılsın ekranda
+10-fotoğrafa basıyorum orijinal boyutta açılıyor, tekrar basıyorum kapanıyor ama bu sefer de diğer fotoğraflar küçük halde gözükmüyor buga giriyor. siteyi yenilemem gerekiyor bunu çöz
+11-harikasın, ama normalde küçük fotoğraflar yan yana duruyordu büyük fotoğraf kapanınca alt alta geliyor tekrar yan yana gelmesini istiyorum
+12-çok güzel, şimdi kullanıcı siteye ilk girdiğinde karşılaştığı ekranda About Me, Contact gibi yerler olsun bir de kategoriler kısmında Main Page olsun böylece kullanıcı istediği zaman ana sayfaya gitsin
+13-site ilk açıldığnıda home sayfası görünecek ama diğer kategorilerde gezerken görünmeyecek
+çok güzel, şimdi diğer kategorilerin yanına bir de home kategorisi ekle böylece kullanıcı istediği zaman ana sayfaya dönebilsin
+14-tamam Mimoza Photography için about me ve contact kısmı doldur kafandan salla
+15-bu index.html dosyasındaki yazıların fontunu daha güzel yapalım about me ve contact başlıklarının rengini de beyazla değişelim
+16-bu siteyi localhostta çalıştırıyorum mobil cihazdan nasıl bakabilirim
+17-tamamdır, bu kodları githuba yüklicem readme.md yaz bir tane
+18-bu proje prompt engineering kapsamında yapay zekaya yaptırıldı kulllandığım promptları da dosya olarak eklicem bu yazıyı da readme.md ye ekle bir de ingilizce yaz
+
+Prompts for creating photos with Leonardo.Ai
+1-car photos
+2-suv car photos
+3-jdm car photos
+4-supersport car photos
+5-sedan sport car photos
+6-rally car photos
+7-cls63 amg with sunset
